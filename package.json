@@ -1,0 +1,13 @@
+{
+  "name": "mdx-wordcount",
+  "displayName": "MDX Word Count",
+  "description": "Status-bar word count for MDX prose, ignoring frontmatter, imports, JSX, code and maths.",
+  "version": "0.1.1",
+  "publisher": "local",
+  "private": true,
+  "repository": "github:DJRHails/mdx-wordcount",
+  "engines": { "vscode": "^1.80.0" },
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {}
+}
